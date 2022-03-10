@@ -15,7 +15,7 @@ using Microsoft.Azure.Devices.Shared; // For TwinCollection
 using Newtonsoft.Json;                // For JsonConvert
     class Program
     {
-        static int temperatureThreshold { get; set; } = 25;
+        static int temperatureThreshold { get; set; } = 55;
         class MessageBody
         {
             public Machine machine {get;set;}
