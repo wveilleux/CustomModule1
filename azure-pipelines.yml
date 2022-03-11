@@ -30,3 +30,20 @@ steps:
     templateFilePath: 'deployment.template.json'
     defaultPlatform: 'arm32v7'
 
+- task: AzureIoTEdge@2
+  inputs:
+    action: 'Push module images'
+    containerregistrytype: 'Azure Container Registry'
+    azureSubscriptionEndpoint: 'sc_hq-ide-lab-01'
+    azureContainerRegistry: '{"loginServer":"nova35.azurecr.io"}'
+    templateFilePath: 'deployment.template.json'
+    defaultPlatform: 'amd64'
+
+- task: AzureIoTEdge@2
+  inputs:
+    action: 'Push module images'
+    containerregistrytype: 'Azure Container Registry'
+    azureSubscriptionEndpoint: 'sc_hq-ide-lab-01'
+    azureContainerRegistry: '{"loginServer":"nova35.azurecr.io"}'
+    templateFilePath: 'deployment.template.json'
+    defaultPlatform: 'amr32v7'
