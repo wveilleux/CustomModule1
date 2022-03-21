@@ -10,10 +10,10 @@
             "minDockerVersion": "v1.25",
             "loggingOptions": "",
             "registryCredentials": {
-              "onderiiotcr": {
-                "username": "$CONTAINER_REGISTRY_USERNAME_onderiiotcr",
-                "password": "$CONTAINER_REGISTRY_PASSWORD_onderiiotcr",
-                "address": "onderiiotcr.azurecr.io"
+              "nova35": {
+                "username": "$CONTAINER_REGISTRY_USERNAME_nova35",
+                "password": "$CONTAINER_REGISTRY_PASSWORD_nova35",
+                "address": "nova35.azurecr.io"
               }
             }
           }
